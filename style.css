@@ -1,0 +1,47 @@
+body {
+    background-size: cover;
+}
+
+.center-block {
+    /* display: inline-block; */
+    position: relative;
+    display: grid;
+}
+
+
+.theme {
+    position: relative;
+    height: 25em;
+    left: 30em ;
+    top: 8em;
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+
+.center-pic {
+    position: absolute;
+    height: 16em;
+    top: 10em;
+    right: 39em;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.name-tag {
+    position: absolute;
+    top: 25em;
+    left: 42em;
+    line-height: 2px;
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+i {
+    margin-right: 7px;
+}
+
+.icons {
+    margin-left: 50px;
+}
